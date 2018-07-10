@@ -12,7 +12,7 @@ email: adam.ladachowski@gmail.com
 twitter_username: aladac
 github_username:  aladac
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['package.json', 'src' , 'node_modules', 'yarn.lock', 'gulpfile.js', 'package-lock.json']
 
 plugins:
   - jekyll-haml
