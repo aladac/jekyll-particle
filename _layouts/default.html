@@ -2,7 +2,7 @@
 <html lang="en">
   {% include head.html %}
   <body>
-      {% include header.html %}
+      {% haml header.haml %}
       <section id="about">
         {% haml about.haml %}
       </section>
@@ -10,5 +10,5 @@
         {% haml projects.haml %}
       </section>
         {{ content }}
-      {% include footer.html %}
+      {% haml footer.haml %}
   </body>
