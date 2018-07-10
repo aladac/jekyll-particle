@@ -1,20 +1,18 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Adam Ladachowski
+description: Adam Ladachowski personal page
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+username: Adam Ladachowski
+user_description: Open-minded, communicative and resourceful Software Engineer with significant experience looking to secure an interesting and challenging role within the ranks of a solid organization. Professional solution delivery from design to implementation. Glad to prototype and test new approaches. Team leadership and project coordination experience available if required. Eager to learn and always willing to help.
 user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-
-# Google-analytics
-google-analytics:
-  id: ""
+email: adam.ladachowski@gmail.com
+twitter_username: aladac
+github_username:  aladac
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+plugins:
+  - jekyll-haml
